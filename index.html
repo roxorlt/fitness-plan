@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>训练打卡</title><link rel="stylesheet" href="style.css"><script src="data.js"></script></head><body>
+<div class="hd"><h1>🏋️ 训练打卡</h1><p>隔天一练 · A上肢 B下肢 C全身 · 护腰第一</p></div><div id="l"></div>
+<script>
+const W='日一二三四五六',C={A:'#1aa39a',B:'#3b82c4',C:'#8b5cf6'},N={A:'上肢日',B:'下肢日',C:'全身日'},today=new Date().toLocaleDateString('sv');
+document.getElementById('l').innerHTML=D.days.map((x,i)=>{const s=JSON.parse(localStorage.getItem('fit-'+x.d)||'{}'),dt=new Date(x.d+'T00:00');
+return `<a class="day" href="day.html?d=${x.d}"><div class="bd" style="background:${C[x.k]}">${x.k}</div><div class="m"><b>${x.d.slice(5)} 周${W[dt.getDay()]} · ${N[x.k]}</b><small>第${i+1}/14次${x.d==today?' · 今天':''}</small></div><span class="ok">${s.sent?'✅':'›'}</span></a>`}).join('')
+</script></body></html>

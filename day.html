@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>训练日</title><link rel="stylesheet" href="style.css"><script src="data.js"></script></head><body>
+<a href="index.html" style="color:#3b82c4">‹ 全部训练日</a><div id="app"></div><div class="toast" id="t"></div>
+<script>
+const q=new URLSearchParams(location.search).get('d'),day=D.days.find(x=>x.d==q)||D.days[0],K='fit-'+day.d;
+const S=JSON.parse(localStorage.getItem(K)||'{}');S.ex=S.ex||{};
+const save=()=>localStorage.setItem(K,JSON.stringify(S));
+const N={A:'A 上肢日',B:'B 下肢日',C:'C 全身日'},C={A:'#1aa39a',B:'#3b82c4',C:'#8b5cf6'};
+const sec=[['W','热身+核心 10-15分','慢、稳、不痛，各1组'],[day.k,'力量 35-40分','每动作3×8-12 · 留2-3次余力'],['X','有氧 25-30分','椭圆机']];
+function card(id,k){const e=D.ex[id],s=S.ex[id]||{},alt=e.n.startsWith('或：'),str=k!='W'&&k!='X';
+let sets='';if(str){sets='<div class="sets"><span></span><span>重量kg</span><span>次数</span>'+[0,1,2].map(j=>`<span>第${j+1}组</span><input inputmode="decimal" data-id="${id}" data-f="w${j}" value="${s['w'+j]||''}"><input inputmode="numeric" data-id="${id}" data-f="r${j}" value="${s['r'+j]||''}">`).join('')+'</div>'}
+return `<div class="card ${s.done?'done':''}" id="c_${id}"><img loading="lazy" src="gif/${id}.gif" alt="${e.n}"><div class="cb"><div class="top"><h3>${alt?e.n.slice(2):e.n} ${alt?'<span class="alt">二选一</span>':''}</h3><input type="checkbox" data-id="${id}" data-f="done" ${s.done?'checked':''}></div><ol>${e.t.map(x=>`<li>${x}</li>`).join('')}</ol><div class="w">🛡 ${e.w}</div>${sets}<a class="lk" href="${e.u}" target="_blank">MuscleWiki 示范 ›</a></div></div>`}
+const f=S.fb||{};
+document.getElementById('app').innerHTML=`<div class="hd" style="margin-top:10px;background:${C[day.k]}"><h1>${N[day.k]}</h1><p>${day.d} · 19:00</p></div>`+
+sec.map(([k,t,sub])=>`<div class="ph" style="background:${D.g[k].c}">${t}<small>${sub}</small></div>`+D.g[k].ids.map(id=>card(id,k)).join('')).join('')+
+`<div class="fb"><h3>📝 今日反馈</h3>
+<label>腰部疼痛 <b id="pv">${f.pain??0}</b>/10</label><input type="range" min="0" max="10" data-fb="pain" value="${f.pain??0}">
+<label>腿/臀麻木</label><select data-fb="numb"><option>无</option><option ${f.numb=='有'?'selected':''}>有</option></select>
+<label>整体疲劳 (1轻松-10力竭)</label><input type="number" min="1" max="10" data-fb="fat" value="${f.fat||''}">
+<label>有氧时长(分钟)</label><input type="number" data-fb="cardio" value="${f.cardio||''}">
+<label>备注</label><textarea rows="3" data-fb="note">${f.note||''}</textarea></div>
+<button class="btn" id="gen">生成反馈并复制</button><pre id="out" style="display:none"></pre>`;
+document.addEventListener('input',ev=>{const t=ev.target;
+ if(t.dataset.id){S.ex[t.dataset.id]=S.ex[t.dataset.id]||{};const v=t.type=='checkbox'?t.checked:t.value;S.ex[t.dataset.id][t.dataset.f]=v;if(t.dataset.f=='done')document.getElementById('c_'+t.dataset.id).classList.toggle('done',v)}
+ if(t.dataset.fb){S.fb=S.fb||{};S.fb[t.dataset.fb]=t.value;if(t.dataset.fb=='pain')document.getElementById('pv').textContent=t.value}
+ save()});
+function toast(m){const t=document.getElementById('t');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',2500)}
+document.getElementById('gen').onclick=async()=>{const f=S.fb||{},L=[`【训练反馈】${day.d} ${N[day.k]}`];
+ const w=D.g.W.ids.filter(i=>(S.ex[i]||{}).done).length;L.push(`热身核心：${w}/${D.g.W.ids.length}`);
+ D.g[day.k].ids.forEach(i=>{const s=S.ex[i]||{},n=D.ex[i].n.replace('或：','');
+  if(n!==D.ex[i].n&&!s.done)return;
+  const sets=[0,1,2].map(j=>s['w'+j]||s['r'+j]?`${s['w'+j]||'-'}kg×${s['r'+j]||'-'}`:'').filter(Boolean).join(' / ');
+  L.push(`${s.done?'✅':'⬜'} ${n}${sets?'：'+sets:''}`)});
+ L.push(`有氧：${f.cardio||'-'}分钟`,`腰痛：${f.pain??0}/10，麻木：${f.numb||'无'}`,`疲劳：${f.fat||'-'}/10`);if(f.note)L.push(`备注：${f.note}`);
+ const txt=L.join('\n'),o=document.getElementById('out');o.style.display='block';o.textContent=txt;S.sent=1;save();
+ try{await navigator.clipboard.writeText(txt);toast('已复制，发给康哥 👍')}catch(e){const r=document.createRange();r.selectNode(o);getSelection().removeAllRanges();getSelection().addRange(r);document.execCommand('copy');toast('已复制，发给康哥 👍')}};
+</script></body></html>
