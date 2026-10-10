@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>训练打卡</title><link rel="stylesheet" href="style.css"><script src="data.js"></script></head><body>
-<div class="hd"><h1>🏋️ 训练打卡</h1><p>隔天一练 · A上肢 B下肢 C全身 · 护腰第一</p></div><div id="l"></div>
+<div class="hd"><h1>🏋️ 训练打卡</h1><p>隔天一练 · A上肢 B下肢 C全身 · 护腰第一</p><a href="webcal://roxorlt.github.io/fitness-plan/training.ics" style="display:inline-block;margin-top:12px;background:#fff;color:#1a7f78;font-weight:800;padding:9px 16px;border-radius:20px">📅 订阅到日历</a></div><div id="l"></div>
 <script>
 const W='日一二三四五六',C={A:'#1aa39a',B:'#3b82c4',C:'#8b5cf6'},N={A:'上肢日',B:'下肢日',C:'全身日'},today=new Date().toLocaleDateString('sv');
 document.getElementById('l').innerHTML=D.days.map((x,i)=>{const s=JSON.parse(localStorage.getItem('fit-'+x.d)||'{}'),dt=new Date(x.d+'T00:00');

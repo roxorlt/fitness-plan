@@ -18,19 +18,21 @@ sec.map(([k,t,sub])=>`<div class="ph" style="background:${D.g[k].c}">${t}<small>
 <label>整体疲劳 (1轻松-10力竭)</label><input type="number" min="1" max="10" data-fb="fat" value="${f.fat||''}">
 <label>有氧时长(分钟)</label><input type="number" data-fb="cardio" value="${f.cardio||''}">
 <label>备注</label><textarea rows="3" data-fb="note">${f.note||''}</textarea></div>
-<button class="btn" id="gen">生成反馈并复制</button><pre id="out" style="display:none"></pre>`;
+<div style="display:flex;gap:10px"><button class="btn" id="mail" style="flex:2">📧 发给康哥</button><button class="btn" id="gen" style="flex:1;background:#fff;color:#1a7f78;border:2px solid #1aa39a">📋 复制</button></div><pre id="out" style="display:none"></pre>`;
 document.addEventListener('input',ev=>{const t=ev.target;
  if(t.dataset.id){S.ex[t.dataset.id]=S.ex[t.dataset.id]||{};const v=t.type=='checkbox'?t.checked:t.value;S.ex[t.dataset.id][t.dataset.f]=v;if(t.dataset.f=='done')document.getElementById('c_'+t.dataset.id).classList.toggle('done',v)}
  if(t.dataset.fb){S.fb=S.fb||{};S.fb[t.dataset.fb]=t.value;if(t.dataset.fb=='pain')document.getElementById('pv').textContent=t.value}
  save()});
 function toast(m){const t=document.getElementById('t');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',2500)}
-document.getElementById('gen').onclick=async()=>{const f=S.fb||{},L=[`【训练反馈】${day.d} ${N[day.k]}`];
+function build(){const f=S.fb||{},L=[`【训练反馈】${day.d} ${N[day.k]}`];
  const w=D.g.W.ids.filter(i=>(S.ex[i]||{}).done).length;L.push(`热身核心：${w}/${D.g.W.ids.length}`);
  D.g[day.k].ids.forEach(i=>{const s=S.ex[i]||{},n=D.ex[i].n.replace('或：','');
   if(n!==D.ex[i].n&&!s.done)return;
   const sets=[0,1,2].map(j=>s['w'+j]||s['r'+j]?`${s['w'+j]||'-'}kg×${s['r'+j]||'-'}`:'').filter(Boolean).join(' / ');
   L.push(`${s.done?'✅':'⬜'} ${n}${sets?'：'+sets:''}`)});
  L.push(`有氧：${f.cardio||'-'}分钟`,`腰痛：${f.pain??0}/10，麻木：${f.numb||'无'}`,`疲劳：${f.fat||'-'}/10`);if(f.note)L.push(`备注：${f.note}`);
- const txt=L.join('\n'),o=document.getElementById('out');o.style.display='block';o.textContent=txt;S.sent=1;save();
+ const txt=L.join('\n'),o=document.getElementById('out');o.style.display='block';o.textContent=txt;S.sent=1;save();return txt}
+document.getElementById('mail').onclick=()=>{const t=build(),sub=`【训练反馈】${day.d} ${N[day.k]}`;location.href='mailto:roxor+fitness@mail.grokbot.com?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(t).replace(/%0A/g,'%0D%0A')};
+document.getElementById('gen').onclick=async()=>{const txt=build(),o=document.getElementById('out');
  try{await navigator.clipboard.writeText(txt);toast('已复制，发给康哥 👍')}catch(e){const r=document.createRange();r.selectNode(o);getSelection().removeAllRanges();getSelection().addRange(r);document.execCommand('copy');toast('已复制，发给康哥 👍')}};
 </script></body></html>
