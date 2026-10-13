@@ -18,8 +18,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fit-20261012-A@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261013T190000
 DTEND;TZID=Asia/Shanghai:20261013T203000
 SUMMARY:🏋️ A 上肢日
@@ -36,12 +36,12 @@ DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
  sclewiki.com/exercise/machine-pulldown\n• 胸托支撑哑铃划船\n  ht
  tps://musclewiki.com/exercise/dumbbell-laying-incline-row\n• 坐姿哑
  铃推举(有靠背)\n  https://musclewiki.com/exercise/dumbbell-seated-ov
- erhead-press\n• 面拉\n  https://musclewiki.com/exercise/cable-rope-kne
- eling-face-pull\n• 哑铃弯举\n  https://musclewiki.com/exercise/dumbb
- ell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope-p
- ushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.com
- /exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛立
- 停
+ erhead-press\n• 器械反向飞鸟\n  https://musclewiki.com/exercise/ma
+ chine-reverse-fly\n• 哑铃弯举\n  https://musclewiki.com/exercise/dum
+ bbell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope
+ -pushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.c
+ om/exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛
+ 立停
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🏋️ A 上肢日 1小时后开始
@@ -50,8 +50,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261014-B@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261015T190000
 DTEND;TZID=Asia/Shanghai:20261015T203000
 SUMMARY:🏋️ B 下肢日
@@ -81,8 +81,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261016-C@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261017T190000
 DTEND;TZID=Asia/Shanghai:20261017T203000
 SUMMARY:🏋️ C 全身日
@@ -111,8 +111,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261018-A@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261019T190000
 DTEND;TZID=Asia/Shanghai:20261019T203000
 SUMMARY:🏋️ A 上肢日
@@ -129,12 +129,12 @@ DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
  sclewiki.com/exercise/machine-pulldown\n• 胸托支撑哑铃划船\n  ht
  tps://musclewiki.com/exercise/dumbbell-laying-incline-row\n• 坐姿哑
  铃推举(有靠背)\n  https://musclewiki.com/exercise/dumbbell-seated-ov
- erhead-press\n• 面拉\n  https://musclewiki.com/exercise/cable-rope-kne
- eling-face-pull\n• 哑铃弯举\n  https://musclewiki.com/exercise/dumbb
- ell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope-p
- ushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.com
- /exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛立
- 停
+ erhead-press\n• 器械反向飞鸟\n  https://musclewiki.com/exercise/ma
+ chine-reverse-fly\n• 哑铃弯举\n  https://musclewiki.com/exercise/dum
+ bbell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope
+ -pushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.c
+ om/exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛
+ 立停
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🏋️ A 上肢日 1小时后开始
@@ -143,8 +143,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261020-B@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261021T190000
 DTEND;TZID=Asia/Shanghai:20261021T203000
 SUMMARY:🏋️ B 下肢日
@@ -174,8 +174,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261022-C@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261023T190000
 DTEND;TZID=Asia/Shanghai:20261023T203000
 SUMMARY:🏋️ C 全身日
@@ -204,8 +204,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261024-A@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261025T190000
 DTEND;TZID=Asia/Shanghai:20261025T203000
 SUMMARY:🏋️ A 上肢日
@@ -222,12 +222,12 @@ DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
  sclewiki.com/exercise/machine-pulldown\n• 胸托支撑哑铃划船\n  ht
  tps://musclewiki.com/exercise/dumbbell-laying-incline-row\n• 坐姿哑
  铃推举(有靠背)\n  https://musclewiki.com/exercise/dumbbell-seated-ov
- erhead-press\n• 面拉\n  https://musclewiki.com/exercise/cable-rope-kne
- eling-face-pull\n• 哑铃弯举\n  https://musclewiki.com/exercise/dumbb
- ell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope-p
- ushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.com
- /exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛立
- 停
+ erhead-press\n• 器械反向飞鸟\n  https://musclewiki.com/exercise/ma
+ chine-reverse-fly\n• 哑铃弯举\n  https://musclewiki.com/exercise/dum
+ bbell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope
+ -pushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.c
+ om/exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛
+ 立停
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🏋️ A 上肢日 1小时后开始
@@ -236,8 +236,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261026-B@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261027T190000
 DTEND;TZID=Asia/Shanghai:20261027T203000
 SUMMARY:🏋️ B 下肢日
@@ -267,8 +267,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261028-C@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261029T190000
 DTEND;TZID=Asia/Shanghai:20261029T203000
 SUMMARY:🏋️ C 全身日
@@ -297,8 +297,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261030-A@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261031T190000
 DTEND;TZID=Asia/Shanghai:20261031T203000
 SUMMARY:🏋️ A 上肢日
@@ -315,12 +315,12 @@ DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
  sclewiki.com/exercise/machine-pulldown\n• 胸托支撑哑铃划船\n  ht
  tps://musclewiki.com/exercise/dumbbell-laying-incline-row\n• 坐姿哑
  铃推举(有靠背)\n  https://musclewiki.com/exercise/dumbbell-seated-ov
- erhead-press\n• 面拉\n  https://musclewiki.com/exercise/cable-rope-kne
- eling-face-pull\n• 哑铃弯举\n  https://musclewiki.com/exercise/dumbb
- ell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope-p
- ushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.com
- /exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛立
- 停
+ erhead-press\n• 器械反向飞鸟\n  https://musclewiki.com/exercise/ma
+ chine-reverse-fly\n• 哑铃弯举\n  https://musclewiki.com/exercise/dum
+ bbell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope
+ -pushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.c
+ om/exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛
+ 立停
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🏋️ A 上肢日 1小时后开始
@@ -329,8 +329,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261101-B@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261102T190000
 DTEND;TZID=Asia/Shanghai:20261102T203000
 SUMMARY:🏋️ B 下肢日
@@ -360,8 +360,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261103-C@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261104T190000
 DTEND;TZID=Asia/Shanghai:20261104T203000
 SUMMARY:🏋️ C 全身日
@@ -390,8 +390,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261105-A@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261106T190000
 DTEND;TZID=Asia/Shanghai:20261106T203000
 SUMMARY:🏋️ A 上肢日
@@ -408,12 +408,12 @@ DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
  sclewiki.com/exercise/machine-pulldown\n• 胸托支撑哑铃划船\n  ht
  tps://musclewiki.com/exercise/dumbbell-laying-incline-row\n• 坐姿哑
  铃推举(有靠背)\n  https://musclewiki.com/exercise/dumbbell-seated-ov
- erhead-press\n• 面拉\n  https://musclewiki.com/exercise/cable-rope-kne
- eling-face-pull\n• 哑铃弯举\n  https://musclewiki.com/exercise/dumbb
- ell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope-p
- ushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.com
- /exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛立
- 停
+ erhead-press\n• 器械反向飞鸟\n  https://musclewiki.com/exercise/ma
+ chine-reverse-fly\n• 哑铃弯举\n  https://musclewiki.com/exercise/dum
+ bbell-curl\n• 绳索下压\n  https://musclewiki.com/exercise/cable-rope
+ -pushdown\n\n③ 椭圆机 25-30分\n• 椭圆机\n  https://musclewiki.c
+ om/exercise/elliptical\n\n⚠️ 护腰：不弓背、不憋气、疼痛
+ 立停
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🏋️ A 上肢日 1小时后开始
@@ -422,8 +422,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261107-B@roxor
-SEQUENCE:1
-DTSTAMP:20261012T232855Z
+SEQUENCE:2
+DTSTAMP:20261013T140138Z
 DTSTART;TZID=Asia/Shanghai:20261108T190000
 DTEND;TZID=Asia/Shanghai:20261108T203000
 SUMMARY:🏋️ B 下肢日
