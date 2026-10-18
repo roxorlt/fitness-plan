@@ -18,8 +18,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fit-20261012-A@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
 DTSTART;TZID=Asia/Shanghai:20261013T190000
 DTEND;TZID=Asia/Shanghai:20261013T203000
 SUMMARY:🏋️ A 上肢日
@@ -50,14 +50,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261014-B@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261015T190000
-DTEND;TZID=Asia/Shanghai:20261015T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261023T190000
+DTEND;TZID=Asia/Shanghai:20261023T203000
 SUMMARY:🏋️ B 下肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-15
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-23
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-15\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-10-23\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -81,14 +81,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261016-C@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261017T190000
-DTEND;TZID=Asia/Shanghai:20261017T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261025T190000
+DTEND;TZID=Asia/Shanghai:20261025T203000
 SUMMARY:🏋️ C 全身日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-17
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-25
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-17\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-10-25\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -111,14 +111,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261018-A@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261019T190000
-DTEND;TZID=Asia/Shanghai:20261019T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261027T190000
+DTEND;TZID=Asia/Shanghai:20261027T203000
 SUMMARY:🏋️ A 上肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-19
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-27
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-19\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-10-27\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -143,14 +143,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261020-B@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261021T190000
-DTEND;TZID=Asia/Shanghai:20261021T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261029T190000
+DTEND;TZID=Asia/Shanghai:20261029T203000
 SUMMARY:🏋️ B 下肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-21
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-29
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-21\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-10-29\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -174,14 +174,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261022-C@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261023T190000
-DTEND;TZID=Asia/Shanghai:20261023T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261031T190000
+DTEND;TZID=Asia/Shanghai:20261031T203000
 SUMMARY:🏋️ C 全身日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-23
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-31
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-23\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-10-31\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -204,14 +204,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261024-A@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261025T190000
-DTEND;TZID=Asia/Shanghai:20261025T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261102T190000
+DTEND;TZID=Asia/Shanghai:20261102T203000
 SUMMARY:🏋️ A 上肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-25
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-02
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-25\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-11-02\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -236,14 +236,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261026-B@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261027T190000
-DTEND;TZID=Asia/Shanghai:20261027T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261104T190000
+DTEND;TZID=Asia/Shanghai:20261104T203000
 SUMMARY:🏋️ B 下肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-27
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-04
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-27\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-11-04\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -267,14 +267,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261028-C@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261029T190000
-DTEND;TZID=Asia/Shanghai:20261029T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261106T190000
+DTEND;TZID=Asia/Shanghai:20261106T203000
 SUMMARY:🏋️ C 全身日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-29
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-06
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-29\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-11-06\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -297,14 +297,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261030-A@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261031T190000
-DTEND;TZID=Asia/Shanghai:20261031T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261108T190000
+DTEND;TZID=Asia/Shanghai:20261108T203000
 SUMMARY:🏋️ A 上肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-10-31
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-08
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-10-31\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-11-08\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -329,14 +329,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261101-B@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261102T190000
-DTEND;TZID=Asia/Shanghai:20261102T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261110T190000
+DTEND;TZID=Asia/Shanghai:20261110T203000
 SUMMARY:🏋️ B 下肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-02
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-10
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-11-02\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-11-10\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -360,14 +360,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261103-C@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261104T190000
-DTEND;TZID=Asia/Shanghai:20261104T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261112T190000
+DTEND;TZID=Asia/Shanghai:20261112T203000
 SUMMARY:🏋️ C 全身日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-04
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-12
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-11-04\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-11-12\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -390,14 +390,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261105-A@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261106T190000
-DTEND;TZID=Asia/Shanghai:20261106T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261114T190000
+DTEND;TZID=Asia/Shanghai:20261114T203000
 SUMMARY:🏋️ A 上肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-06
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-14
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-11-06\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-11-14\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h
@@ -422,14 +422,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fit-20261107-B@roxor
-SEQUENCE:2
-DTSTAMP:20261013T142207Z
-DTSTART;TZID=Asia/Shanghai:20261108T190000
-DTEND;TZID=Asia/Shanghai:20261108T203000
+SEQUENCE:3
+DTSTAMP:20261018T173415Z
+DTSTART;TZID=Asia/Shanghai:20261116T190000
+DTEND;TZID=Asia/Shanghai:20261116T203000
 SUMMARY:🏋️ B 下肢日
-URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-08
+URL:https://roxorlt.github.io/fitness-plan/day.html?d=2026-11-16
 DESCRIPTION:📱 打卡页 https://roxorlt.github.io/fitness-plan/day.html?
- d=2026-11-08\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
+ d=2026-11-16\n\n① 热身+核心 10-15分\n• 猫驼式\n  https://muscl
  ewiki.com/exercise/cat-pose\n• 臀桥\n  https://musclewiki.com/exercise
  /glute-bridge\n• 死虫子\n  https://musclewiki.com/exercise/dead-bug\n
  • 鸟狗式\n  https://musclewiki.com/exercise/bird-dog\n• 侧桥\n  h

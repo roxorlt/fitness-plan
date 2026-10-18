@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>训练日</title><link rel="stylesheet" href="style.css"><script src="data.js"></script></head><body>
 <a href="index.html" style="color:#3b82c4">‹ 全部训练日</a><div id="app"></div><div class="toast" id="t"></div>
 <script>
-const q=new URLSearchParams(location.search).get('d'),day=D.days.find(x=>x.d==q)||D.days[0],K='fit-'+day.d;
+const q=new URLSearchParams(location.search).get('d'),day=D.days.find(x=>x.d==q)||D.days.find(x=>q&&x.d>=q)||D.days.find(x=>!x.done)||D.days[0],K='fit-'+day.d;
 const S=JSON.parse(localStorage.getItem(K)||'{}');S.ex=S.ex||{};
 const save=()=>localStorage.setItem(K,JSON.stringify(S));
 const N={A:'A 上肢日',B:'B 下肢日',C:'C 全身日'},C={A:'#1aa39a',B:'#3b82c4',C:'#8b5cf6'};

@@ -3,5 +3,5 @@
 <script>
 const W='日一二三四五六',C={A:'#1aa39a',B:'#3b82c4',C:'#8b5cf6'},N={A:'上肢日',B:'下肢日',C:'全身日'},today=new Date().toLocaleDateString('sv');
 document.getElementById('l').innerHTML=D.days.map((x,i)=>{const s=JSON.parse(localStorage.getItem('fit-'+x.d)||'{}'),dt=new Date(x.d+'T00:00');
-return `<a class="day" href="day.html?d=${x.d}"><div class="bd" style="background:${C[x.k]}">${x.k}</div><div class="m"><b>${x.d.slice(5)} 周${W[dt.getDay()]} · ${N[x.k]}</b><small>第${i+1}/14次${x.d==today?' · 今天':''}</small></div><span class="ok">${s.sent?'✅':'›'}</span></a>`}).join('')
+return `<a class="day" href="day.html?d=${x.d}"><div class="bd" style="background:${C[x.k]}">${x.k}</div><div class="m"><b>${x.d.slice(5)} 周${W[dt.getDay()]} · ${N[x.k]}</b><small>第${i+1}/${D.days.length}次${x.d==today?' · 今天':''}</small></div><span class="ok">${s.sent||x.done?'✅':'›'}</span></a>`}).join('')
 </script></body></html>
